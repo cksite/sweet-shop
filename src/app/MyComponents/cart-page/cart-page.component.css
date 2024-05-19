@@ -1,0 +1,46 @@
+.page-header {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('https://images.unsplash.com/photo-1661603980318-f3cf182b2ec8');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sticky-thead {
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.table-responsive {
+    overflow-x: auto;
+}
+
+.input-group.quantity .btn-outline-secondary {
+    border-color: #ccc;
+}
+
+.input-group.quantity input {
+    max-width: 50px;
+}
+
+.btn-remove {
+    border: none;
+    background: none;
+}
+
+.checkout-box {
+    text-align: center;
+    color: #333;
+    border: 1px solid #ccc;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.btn-primary {
+    background-color: #f76c6c;
+    border-color: #f76c6c;
+}
+
+.btn-primary:hover {
+    background-color: #fa8072;
+    border-color: #fa8072;
+}

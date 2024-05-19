@@ -1,0 +1,25 @@
+<p>Tracking Order</p>
+
+<div id="map" style="height: 400px;"></div>
+<br>
+<div>
+  <b>Start:</b>
+  <input id="start" type="text">
+  <b>End:</b>
+  <input id="end" type="text">
+  <button (click)="calculateAndDisplayRoute()">Get Route</button>
+</div>
+
+<div *ngIf="!error">
+  <b>Distance:</b> {{ distance }}
+</div>
+<div *ngIf="!error">
+  <b>Duration:</b> {{ duration }}
+</div>
+
+<div class="popup" *ngIf="isPopupVisible">
+  <div class="popup-content">
+    <h2>Your Order Has Been Delivered!</h2>
+    <button (click)="closePopup()">Close</button>
+  </div>
+</div>

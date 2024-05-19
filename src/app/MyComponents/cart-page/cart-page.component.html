@@ -1,0 +1,58 @@
+<app-navbar></app-navbar>
+<app-page-header></app-page-header>
+
+<div class="container-fluid py-5">
+    <div class="container py-5">
+        <div class="table-responsive">
+            <table class="table">
+                <thead class="sticky-thead">
+                    <tr>
+                        <th scope="col">Products</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Price</th>
+                        <th scope="col">Quantity</th>
+                        <th scope="col">Total</th>
+                        <th scope="col">Remove</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">
+                            <img src="https://images.unsplash.com/photo-1534119139482-b530a7f9a98b" class="img-fluid rounded-circle" alt="Candies" style="width: 80px; height: 80px;">
+                        </th>
+                        <td>Candies</td>
+                        <td>₹299</td>
+                        <td>
+                            <div class="input-group quantity">
+                                <button class="btn btn-decrement btn-outline-secondary">
+                                    <i class="fa fa-minus"></i>
+                                </button>
+                                <input type="text" class="form-control text-center" value="1">
+                                <button class="btn btn-increment btn-outline-secondary">
+                                    <i class="fa fa-plus"></i>
+                                </button>
+                            </div>
+                        </td>
+                        <td>₹299</td>
+                        <td>
+                            <button class="btn btn-remove bg-light">
+                                <i class="fa fa-times text-danger"></i>
+                            </button>
+                        </td>
+                    </tr>
+                    <!-- Repeat for other products -->
+                </tbody>
+            </table>
+        </div>
+        <hr class="my-5">
+        <div class="checkout-box bg-light rounded p-4 shadow-lg">
+            <h4 class="fw-bold mb-3">Cart Total</h4>
+            <p class="subtotal mb-3"><strong>Subtotal:</strong> ₹960</p>
+            <p class="shipping mb-3"><strong>Shipping:</strong> Flat rate - ₹300</p>
+            <p class="total mb-3"><strong>Total:</strong> ₹1260</p>
+            <button class="btn btn-primary rounded-pill px-4 py-2" (click)="redirectToCheckout()">Proceed to Checkout</button>
+        </div>
+    </div>
+</div>
+
+<app-footer></app-footer>

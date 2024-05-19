@@ -1,0 +1,32 @@
+.custom-banner {
+    background: linear-gradient(to right, #f9d423 50%, #ff4e50 100%);
+}
+
+.text-holder .banner-title {
+    color: #ffffff; /* Bright white for better readability */
+}
+
+.text-holder p {
+    color: #fdfbfb; /* Soft white for text */
+}
+
+.custom-banner-btn {
+    color: #ff4e50;
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    transition: all 0.3s ease;
+}
+
+.custom-banner-btn:hover {
+    color: #ffffff;
+    background-color: #f9d423;
+    border-color: #f9d423;
+}
+
+.banner-img .price-tag {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #ff4e50;
+    font-weight: bold;
+    text-align: center;
+}
+

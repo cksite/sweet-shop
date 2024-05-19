@@ -1,0 +1,48 @@
+/* Carousel custom height and visuals */
+.carousel-item img {
+    height: 70vh;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 0;
+    transition: transform 0.5s ease;
+}
+
+.carousel-item:hover img {
+    transform: scale(1.05); /* subtle zoom on hover */
+}
+
+/* Centering text overlay across the carousel */
+.overlay-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    pointer-events: none;
+    background: rgba(0, 0, 0, 0.3); /* Adds a slight darkening mask to improve text contrast */
+}
+
+.overlay-text h1 {
+    font-size: 3.5rem;
+    color: #ffcc00; /* A warm golden color fitting a sweet shop */
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.9);
+}
+
+/* Adjusting carousel control sizes and visibility */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    width: 60px; /* slightly larger for better accessibility */
+    height: 60px;
+    background-size: contain;
+    background-color: rgba(255, 204, 0, 0.75); /* Same golden color, semi-transparent */
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 5%;
+    height: 100%;
+}

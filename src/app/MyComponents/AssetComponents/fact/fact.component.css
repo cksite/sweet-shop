@@ -1,0 +1,38 @@
+.fact-background {
+    background-color: #fff1e6; /* A light pastel background */
+}
+
+.fact-counter {
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.fact-counter i {
+    font-size: 50px;
+    color: #ffad60; /* A sweet gold-like color */
+    margin-bottom: 15px;
+}
+
+.fact-counter h4 {
+    color: #333;
+    letter-spacing: normal;
+    text-transform: none;
+    font-size: 18px; /* A more readable size */
+    margin-bottom: 5px; /* Tighter spacing */
+}
+
+.fact-counter h1 {
+    font-size: 36px; /* Larger font size for emphasis */
+    color: #ff6347; /* Vibrant color for numbers to stand out */
+    margin-bottom: 0;
+}
+
+.fact-counter:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
+}
+
+.fact-counter .text-gold {
+    color: #ffc107; /* Gold color for icons */
+}

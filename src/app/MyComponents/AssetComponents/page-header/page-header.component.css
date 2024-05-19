@@ -1,0 +1,15 @@
+.page-header {
+    position: relative;
+    padding: 60px 0; /* More pronounced padding for a better layout */
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://source.unsplash.com/1600x900/?dessert,cakes');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff; /* Ensuring text color is set here for consistency */
+}
+
+.page-title {
+    font-size: 3rem; /* Larger font size for importance */
+    font-weight: bold; /* Stronger weight for better visibility */
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6); /* Text shadow for readability against potential bright backgrounds */
+}

@@ -1,0 +1,35 @@
+.btn-custom {
+    color: #fff;
+    background-color: #f76c6c; /* A soft, welcoming red */
+    border-color: #f76c6c;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-custom:hover {
+    color: #fff;
+    background-color: #f54747; /* A slightly darker shade for hover */
+    border-color: #f54747;
+}
+
+.text-warning {
+    color: #ffc107; /* Use a warning color that's not too harsh */
+}
+
+.text-danger {
+    color: #dc3545; /* Soft error message red */
+}
+
+/* Optional: add a little animation to keep the page lively */
+.bi-exclamation-triangle {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+    0% { transform: translateX(0); }
+    20% { transform: translateX(-10px); }
+    40% { transform: translateX(10px); }
+    60% { transform: translateX(-10px); }
+    80% { transform: translateX(10px); }
+    100% { transform: translateX(0); }
+}

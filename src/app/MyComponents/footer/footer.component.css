@@ -1,0 +1,83 @@
+.footer {
+    background: #2b2e4a; /* A deep, rich background color */
+    color: #fff;
+    padding: 40px 0;
+}
+
+.footer h4 {
+    color: #f9d342; /* A vibrant accent color */
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
+
+.footer-link {
+    color: #cfd2da;
+    text-decoration: none;
+    font-size: 1rem;
+    line-height: 2.5; /* Spacing for better readability */
+    transition: color 0.3s ease;
+}
+
+.footer-link:hover, .footer-link:focus {
+    color: #f9d342; /* Highlight color on hover */
+    text-decoration: none;
+}
+
+.footer-item {
+    min-width: 220px; /* Ensures proper spacing in smaller views */
+}
+
+.btn-outline-secondary {
+    color: #f9d342;
+    border: 1px solid #f9d342;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+.btn-outline-secondary:hover {
+    background-color: #f9d342;
+    color: #2b2e4a;
+}
+
+.btn-md-square {
+    padding: 0;
+}
+
+/* Enhanced visual feedback for social media buttons */
+.btn-md-square:hover {
+    transform: rotate(360deg); /* A fun rotation effect */
+    transition: transform 0.6s ease;
+}
+
+/* Adjusting the padding and margin for mobile responsiveness */
+@media (max-width: 768px) {
+    .footer {
+        padding: 20px 0;
+    }
+    .footer-item {
+        margin-bottom: 20px;
+    }
+}
+
+/* Scrollbar styles for aesthetic consistency */
+.scrollable-table::-webkit-scrollbar {
+    width: 8px;
+}
+
+.scrollable-table::-webkit-scrollbar-track {
+    background: #444;
+}
+
+.scrollable-table::-webkit-scrollbar-thumb {
+    background: #f9d342;
+    border-radius: 4px;
+}
+
+.scrollable-table::-webkit-scrollbar-thumb:hover {
+    background: #ffc75f;
+}

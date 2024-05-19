@@ -1,0 +1,34 @@
+<app-navbar></app-navbar>
+<div class="container-fluid payment-header">
+    <h1 class="payment-title">Secure Payment</h1>
+</div>
+<div class="payment-container">
+    <div class="payment-summary card">
+        <h2 class="summary-title">Order Summary</h2>
+        <p class="summary-item"><strong>Total:</strong> <span>₹ 1999</span></p>
+        <p class="summary-item"><strong>Taxes:</strong> <span>₹ 199</span></p>
+        <p class="summary-total"><strong>Total After Taxes:</strong> <span>₹ 2198</span></p>
+        <p class="summary-info"><strong>Invoice ID:</strong> SN8478042099</p>
+        <p class="summary-info"><strong>Payment Date:</strong> 18 April 2024</p>
+    </div>
+    <div class="payment-methods card">
+        <h2 class="methods-title">Choose a Payment Method</h2>
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+                <a class="nav-link active" href="#">Credit Card</a>
+            </li>
+        </ul>
+        <form class="payment-form">
+            <label for="card-number">Credit Card Number:</label>
+            <input id="card-number" class="form-control" type="text" placeholder="5136 1845 5468 3894" disabled>
+            <label for="expiry-date">Expiration Date:</label>
+            <input id="expiry-date" class="form-control" type="text" placeholder="05/24" disabled>
+            <label for="cvv">CVV:</label>
+            <input id="cvv" class="form-control" type="password" placeholder="123" disabled>
+            <label for="cardholder-name">Cardholder's Name:</label>
+            <input id="cardholder-name" class="form-control" type="text" placeholder="Valdimir Berezovkiy" disabled>
+            <button type="button" class="btn btn-primary">Confirm Payment</button>
+        </form>
+    </div>
+</div>
+<app-footer></app-footer>
