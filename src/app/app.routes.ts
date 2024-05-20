@@ -15,6 +15,8 @@ import { BakeryComponent } from './MyComponents/bakery/bakery.component';
 import { CandiesComponent } from './MyComponents/candies/candies.component';
 import { CookiesComponent } from './MyComponents/cookies/cookies.component';
 import { SuccessMessageComponent } from './MyComponents/success-message/success-message.component';
+// import { StoreManagementComponent } from './MyComponents/store-management/store-management.component';
+// import { StoreListComponent } from './MyComponents/store-list/store-list.component';
 
 export const routes: Routes = [
     {path:'', component:HomePageComponent},
@@ -31,6 +33,8 @@ export const routes: Routes = [
     {path:'candies', component:CandiesComponent},
     {path:'cookies', component:CookiesComponent},
     {path:'success', component:SuccessMessageComponent},
+    // {path:'storemanage', component:StoreManagementComponent},
+    // {path:'storelist', component:StoreListComponent},
 ];
 
 

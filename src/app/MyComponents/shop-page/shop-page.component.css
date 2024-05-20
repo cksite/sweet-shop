@@ -51,3 +51,73 @@
 .shop-cards{
     display: flex !important;
 }
+/* Centering the navbar */
+.shopnavbar {
+    display: flex;
+    justify-content: center;
+}
+
+/* Style for the navigation container */
+.nav-pills {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Style for each navigation item */
+.nav-item {
+    display: inline-block;
+}
+
+/* Style for the anchor tag */
+.nav-filters {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease; /* Added animation */
+}
+
+/* Style for the span inside the anchor tag */
+.nav-filters span {
+    width: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Style for the container div inside the anchor tag */
+.nav-filters a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #f8f9fa;
+    border: 1px solid #ced4da;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin: 5px;
+    overflow: hidden; /* Ensure overflow hidden for the animation */
+}
+
+/* Gradient background for navigation items */
+.nav-filters {
+    background: linear-gradient(to right, #ff5f6d, #ffc371); /* Change colors as needed */
+    background-clip: padding-box;
+    border: 1px solid transparent; /* Ensures border doesn't interfere with gradient */
+    transition: background-color 0.3s ease;
+}
+
+/* Gradient hover effect */
+.nav-filters:hover {
+    background: linear-gradient(to right, #833ab4, #fd1d1d, #fcb045); /* Change colors as needed */
+    background-clip: padding-box;
+    transform: scale(1.05); /* Added animation */
+}
+
+/* Gradient active state */
+.nav-filters.active {
+    background: linear-gradient(to right, #4e54c8, #8f94fb); /* Change colors as needed */
+    background-clip: padding-box;
+}
