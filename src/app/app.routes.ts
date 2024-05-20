@@ -14,6 +14,7 @@ import { CakesComponent } from './MyComponents/cakes/cakes.component';
 import { BakeryComponent } from './MyComponents/bakery/bakery.component';
 import { CandiesComponent } from './MyComponents/candies/candies.component';
 import { CookiesComponent } from './MyComponents/cookies/cookies.component';
+import { SuccessMessageComponent } from './MyComponents/success-message/success-message.component';
 
 export const routes: Routes = [
     {path:'', component:HomePageComponent},
@@ -29,6 +30,7 @@ export const routes: Routes = [
     {path:'bakery', component:BakeryComponent},
     {path:'candies', component:CandiesComponent},
     {path:'cookies', component:CookiesComponent},
+    {path:'success', component:SuccessMessageComponent},
 ];
 
 
