@@ -1,12 +1,14 @@
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { NavbarComponent } from "../navbar/navbar.component";
+import { FooterComponent } from "../footer/footer.component";
 
 declare var google: any;
 
 @Component({
   selector: 'app-track',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule,NavbarComponent,FooterComponent],
   templateUrl: './track.component.html',
   styleUrls: ['./track.component.css']
 })

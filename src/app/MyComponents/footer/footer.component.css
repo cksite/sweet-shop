@@ -10,17 +10,15 @@
     font-size: 1.5rem;
 }
 
-.footer-link {
+.footer-text {
     color: #cfd2da;
-    text-decoration: none;
     font-size: 1rem;
     line-height: 2.5; /* Spacing for better readability */
     transition: color 0.3s ease;
 }
 
-.footer-link:hover, .footer-link:focus {
+.footer-text:hover, .footer-text:focus {
     color: #f9d342; /* Highlight color on hover */
-    text-decoration: none;
 }
 
 .footer-item {

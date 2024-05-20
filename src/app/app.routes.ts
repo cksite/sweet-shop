@@ -9,7 +9,11 @@ import { CheckoutPageComponent } from './MyComponents/checkout-page/checkout-pag
 import { NotFoundPageComponent } from './MyComponents/AssetComponents/not-found-page/not-found-page.component';
 import { PaymentGatewayComponent } from './MyComponents/payment-gateway/payment-gateway.component';
 import { TrackComponent } from './MyComponents/track/track.component';
-
+// import { CakeComponent } from './MyComponents/cakes/cakes.component';
+import { CakesComponent } from './MyComponents/cakes/cakes.component';
+import { BakeryComponent } from './MyComponents/bakery/bakery.component';
+import { CandiesComponent } from './MyComponents/candies/candies.component';
+import { CookiesComponent } from './MyComponents/cookies/cookies.component';
 
 export const routes: Routes = [
     {path:'', component:HomePageComponent},
@@ -21,6 +25,10 @@ export const routes: Routes = [
     {path:'404notfound', component:NotFoundPageComponent},
     {path:'payment', component:PaymentGatewayComponent},
     {path:'track', component:TrackComponent},
+    {path:'cakes', component:CakesComponent},
+    {path:'bakery', component:BakeryComponent},
+    {path:'candies', component:CandiesComponent},
+    {path:'cookies', component:CookiesComponent},
 ];
 
 
